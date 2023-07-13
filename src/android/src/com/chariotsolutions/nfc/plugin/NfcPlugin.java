@@ -1013,4 +1013,9 @@ public class NfcPlugin extends CordovaPlugin implements NfcAdapter.OnNdefPushCom
         });
     }
 
+
+    public String getTestingString() {
+        return "Testing the git forked versions";
+    }
+
 }
